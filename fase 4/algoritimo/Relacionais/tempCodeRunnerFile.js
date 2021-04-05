@@ -1,0 +1,1 @@
+var A = prompt ("Qual o valor de A? ");

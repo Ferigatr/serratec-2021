@@ -1,0 +1,13 @@
+<script>
+ document.write("<b>Receita de bolo</b><br>");
+ document.write("<br>");
+ document.write("3 xícaras (chá) de Farinha <br>");
+ document.write("2 xícaras (chá) de Fubá<br>");
+ document.write("1 xícara (chá) de Açúcar Mascavo<br>");
+ document.write("2 colheres (sopa) rasas de fermento em pó<br>");
+ document.write("2 xícaras (chá) de leite de coco<br>");
+ document.wirte("2 xícaras (chá) de óleo de coco<br>");
+ document.write("<b>preparo</b><br>");
+ document.wirte("1 - Unte uma forma com furo central com óleo e polvilhe com fubá. Reserve.<br>");
+ document.wirte("2 - Em uma tigela misture o fubá, a farinha, o açúcar, o fermento. Em seguida, adicione o leite de coco e o óleo de coco e mexa bem.<br>");
+</script>
