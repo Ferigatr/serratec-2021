@@ -10,10 +10,12 @@ numero_cliente = []
 
 num_ingressos = ingressos.length
 num_ingressos_meia = ingressos_meia.length
-num_ingressos_total = num_ingressos + num_ingressos_meia
+num_ingressos_total = 0
 
 while (num_ingressos_total <= 5 ) {
+
     var nome = ler("Qual seu nome?");
+    console.log(num_ingressos_total);
     if(ingressos.indexOf(nome) != -1 || ingressos_meia.indexOf(nome) != -1){
         console.log('Só é permitida apenas uma reserva por nome');
     }
@@ -25,11 +27,13 @@ while (num_ingressos_total <= 5 ) {
             } else {
                 ingressos_meia.push(nome);
                 numero_cliente.push(numero_cliente + 1);
+                num_ingressos_total = num_ingressos_total + 1;
             }
         }
         else {
             ingressos.push(nome);
             numero_cliente.push(numero_cliente + 1);
+            num_ingressos_total = num_ingressos_total + 1;
         }
     }
 }
@@ -62,6 +66,3 @@ while ( retirada ) {
         retirada = false;
     }
 }
-
-
-//n tive tempo para terminar ta bugado
