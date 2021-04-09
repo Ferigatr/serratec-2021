@@ -4,18 +4,15 @@ const prompt = require("prompt-sync")();
 
 
 console.log("Digite 'S' ou 'N' nas restriçoes a seguir");
-var A = prompt("Idade a baixop de 16 ou acima de 69: : ");
-var B = prompt("Pesa menos de 50 kg:  ");
-var C = prompt("Portador de Hepatite:  ");
-var D = prompt("Ja teve Malaria: ");
-var E = prompt("Fez doação recente:  ");
+var A = ler("Idade a baixop de 16 ou acima de 69: : ");
+var B = ler("Pesa menos de 50 kg:  ");
+var C = ler("Portador de Hepatite:  ");
+var D = ler("Ja teve Malaria: ");
+var E = ler("Fez doação recente:  ");
+
+//processo
+var resultado = A == "Sim" || B =="Sim" || C == "Sim" || D == "Sim" || E == "Não";
 
 
-if (A == "N" && B =="N" && C == "N" && D == "N" && E == "N") {
-    V = "Sim ele pode doar";
-} else {
-    console.log('Não');
-    V = "não pode doar";
-}
 
-console.log ("O cidadão pdoe doar??", V);
+//saida

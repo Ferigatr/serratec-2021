@@ -5,9 +5,13 @@
 const ler = require("prompt-sync")();
 
 //-----------------------------
+
 var quantclient = ler("quantos clientes estão presentes na loja? ");
+
 //quantidade maxima de clientes na loja
+
 quantmax = ler("Qual o limite maximo na loja? ")
+
 //-----------------------------
 
 var total = quantclient <= quantmax;
